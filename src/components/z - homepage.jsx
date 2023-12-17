@@ -34,7 +34,7 @@ export default function HomePage() {
       <div className={Mode === "silver" ? "silver" : "naturale"}>
         <div className="Application">
           {/* <BrowserRouter> */}
-          <BrowserRouter basename="/pomo-technique">
+          <BrowserRouter basename="pomo-technique">
           {/* <h1>{Mode }</h1> */}
             <Routes>
               <Route path="/" element={
